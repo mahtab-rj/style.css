@@ -1,0 +1,87 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    justify-items: center;
+
+}
+body {
+    align-items: center;
+    background: #D8AA96;
+    color: rgba(0,0,0,.8);
+    display: grid;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    height: 100vh;
+    justify-items: center;
+    weight: 100vw;
+}
+
+div.main {
+    display: grid;
+    grid-template-areas: "left right";
+    max-width: 900px;
+    height: border-box;
+}
+
+div.left {
+    background: #807182;
+    overflow: hidden;
+    padding: 64px 10px 64px 10px;
+    position: relative;
+    text-align: center;
+    width: 300px;
+}
+
+img {
+    width: 276px;
+    text-align: center;
+
+}
+
+
+div.right {
+    background: #F7B1AB;
+    display: grid;
+    grid-template-areas: "." ".";
+    width: 500px;
+}
+
+ h2 {
+      color: rgba(0,0,0,.8);
+      font-size: 30px;
+      font-weight: 600;
+     font-family: 'Montserrat',sans-serif;
+  }
+
+
+/*input[type=email],input[type=password]{
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 4px;
+    height:10px;
+    color: rgba(0,0,0,.8);
+    display: block;
+    margin-bottom: 5px;
+}*/
+
+input[type=submit]{
+    border: 1px solid rgba(0,0,0,.2);
+    height: 32px;
+    line-height: 32px;
+    width: 100px;
+    border-radius: 19px;
+    font-family: 'Montserrat',sans-serif;
+    background: #807182;
+    border: 1px solid transparent;
+    color: #fff;
+
+}
+
+
+
